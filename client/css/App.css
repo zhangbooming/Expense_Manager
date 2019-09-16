@@ -1,0 +1,151 @@
+/*client/css/App.css*/
+
+html, body{
+    font-family: Montserrat;
+    background: #2cbca6;
+    font-size: 48px !important;
+}
+
+.container{
+    background: #fff;
+}
+
+.button-col {
+    width:250px;
+    text-align:center;
+}
+.desc-col {
+ width:300px;
+ text-align:left;
+}
+
+table {
+    counter-reset: tableCount;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.counterCell:before {
+    content: counter(tableCount);
+    counter-increment: tableCount;
+}
+.counterCell {
+ text-align: center;
+ width:50px;
+}
+.button-center {
+ text-align: center;
+}
+.Modal {
+   position: relative;
+   border: 30px solid #fff;
+   padding: 20px;
+ }
+
+ .Modal label{
+   height:auto;
+ }
+.Overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rebeccapurple;
+ }
+.button-center {
+  text-align: center;
+ }
+label{
+ display:inline-block;
+ text-align:center;
+ background: #2cbca6;
+ padding: 20px;
+ width: 465px;
+ height: 200px;
+ color: #fff;
+ margin-left: 1%;
+ }
+fieldset{
+ border:none;
+ margin:0px auto;
+ }
+.closebtn{
+   float:right;
+ }
+
+ #root{
+   margin: 0 auto;
+   width: 100%;
+ }
+
+input{
+  width: 300px;
+  background: #2cbca6;
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 32px;
+  padding: 15px;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+.money{
+  text-align: left;
+}
+
+.update-col{
+  text-align: right;
+}
+
+.btn-lg{
+  font-size: 30px !important;
+  padding: 12px 40px !important;
+  margin: 20px 0px;
+}
+
+td{
+  padding: 10px 0px !important;
+}
+
+.button-center .btn-lg{
+  font-size: 50px !important;
+}
+
+.labels{
+  margin-top: 70px;
+}
+
+.ReactModal__Content input{
+  background: #fff;
+  color: #2cbca6;
+  margin-left: 30px;
+  font-weight:bold;
+  font-size: 40px;
+}
+
+.ReactModal__Content select{
+  margin-left: 30px;
+}
+
+#id-button{
+  background: #2cbca6;
+  font-weight: bold;
+  width: 97%;
+  padding: 30px !important;
+  font-size: 50px !important;
+  border-radius: 0px !important;
+}
+
+#header{
+  display:block;
+  background: #2cbca6;
+  color: #fff;
+  font-family: 'Yellowtail';
+  font-size: 90px;
+  padding: 20px;
+  text-align: center;
+}
